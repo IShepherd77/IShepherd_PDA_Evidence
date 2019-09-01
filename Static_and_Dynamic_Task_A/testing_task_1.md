@@ -7,7 +7,7 @@
 class CardGame
 
 
-  def checkforAce(card) #separated be all snake case and separated
+  def checkforAce(card) #should be all snake case and separated
     if card.value = 1 ## missing =, should be if card.value == 1
       return true
     else

@@ -23,7 +23,6 @@ class CardGame
     end
   end
 
-
   def self.cards_total(cards)
     total = 0
     for card in cards
